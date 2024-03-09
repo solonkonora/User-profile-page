@@ -1,0 +1,53 @@
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  justify-self: center;
+  padding: 15px;
+}
+
+form {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #f2f2f2, #e0e0e0);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: auto;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #7dabdb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
